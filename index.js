@@ -497,19 +497,32 @@
 //   }
 // }
 
-// function localize(lang = "en") {
-//   if (lang === "ru") {
-//     return "Привет";
-//   }
-//   if (lang === "uk") {
-//     return "Привiт";
-//   }
-//   return "Hello";
-// }
+/*  function localize(lang = "en") {
+ if (lang === "ru") {
+      return "Привет";
+ }
+  if (lang === "uk") {
 
-// console.log(localize("ru").toUpperCase());
-// console.log(localize("uk").toUpperCase());
-// console.log(localize().toUpperCase());
+  return "Привiт";
+ }
+   return "Hello";
+}
+
+
+console.log(localize("ru").toUpperCase());
+console.log(localize("uk").toUpperCase());
+ console.log(localize().toUpperCase()); */
+
+ function filterArray(numbers, value) {
+     const filteredNumbers = [];
+     
+     for (const number of numbers){
+     if (number > value) {
+     filteredNumbers.push(number);
+     } 
+     }
+     return filterArray;  
+     }
 
 // const add = function () { }; // 1
 
